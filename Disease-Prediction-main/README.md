@@ -1,0 +1,3 @@
+# Disease-Prediction
+This project aims to provide the disease name from which the patient might be suffering based on the symptoms provided to the model.
+Their are 133 different symptoms included in the dataset, and 40 different corresponding diseases. The model use a basic ensembling of Support Vector Machine, Gaussian Naive Bayes, Random Forest Classifier and uses the median of the output provided by these models to get more accurate output. The Dataset is obtained from Kaggle platform. The model takes the input in the form of string of symptoms seperated by "," for example "symptom 1, symptom2". 
